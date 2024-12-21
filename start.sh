@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-fileName="fabric-server-launch.jar"
+fileName="server.jar"
 memory=14336
 
 declare -i memory

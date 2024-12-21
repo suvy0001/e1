@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734774022182
+  login: 1734774017548
+money: '0'
+last-account-name: Legendaryxxx
+logoutlocation:
+  world: f00e8b08-0038-46e2-a57c-ac85b6e40e03
+  world-name: world
+  x: -0.4824678467951122
+  y: 90.0
+  z: 60.32135709656541
+  yaw: -100.16498565673828
+  pitch: 17.63702392578125

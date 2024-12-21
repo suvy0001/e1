@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.40.142.217
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734774110629
+  login: 1734774027927
+money: '0'
+last-account-name: eagledares1
+logoutlocation:
+  world: f00e8b08-0038-46e2-a57c-ac85b6e40e03
+  world-name: world
+  x: -5.176784388057029
+  y: 85.0
+  z: 22.55936720089968
+  yaw: -179.96937561035156
+  pitch: 32.279090881347656
