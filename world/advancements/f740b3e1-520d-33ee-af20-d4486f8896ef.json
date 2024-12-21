@@ -1,0 +1,30 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-21 07:57:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-12-21 07:58:51 +0000",
+      "minecraft:taiga": "2024-12-21 07:57:51 +0000",
+      "minecraft:river": "2024-12-21 07:58:49 +0000"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "highland": "2024-12-21 07:59:23 +0000",
+      "maple_woods": "2024-12-21 08:47:11 +0000"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "highland": "2024-12-21 07:59:23 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}
