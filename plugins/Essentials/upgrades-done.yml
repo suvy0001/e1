@@ -2,7 +2,6 @@ newUidCacheBuilt: true
 updateSpawnsToNewSpawnsConfig: true
 updateJailsToNewJailsConfig: true
 warnMetrics: true
-movemotdToFile: true
 moverulesToFile: true
 sanitizeAllUserFilenames: true
 updateUsersPowerToolsFormat: true
