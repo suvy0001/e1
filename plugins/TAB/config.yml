@@ -39,17 +39,6 @@ scoreboard-teams:
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
   disable-condition: '%world%=disabledworld'
-  unlimited-nametag-mode:
-    enabled: false
-    disable-on-boats: true
-    disable-condition: '%world%=disabledworld'
-    dynamic-lines:
-    - abovename
-    - nametag
-    - belowname
-    - another
-    static-lines:
-      myCustomLine: 0.66
 playerlist-objective:
   enabled: true
   value: '%ping%'
@@ -57,11 +46,11 @@ playerlist-objective:
   disable-condition: '%world%=disabledworld'
 belowname-objective:
   enabled: false
-  number: '%health%'
-  text: '&cHealth'
-  fancy-display-players: '&c%health%'
-  fancy-display-default: NPC
   disable-condition: '%world%=disabledworld'
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  value: '%health%'
+  title: '&cHealth'
 prevent-spectator-effect:
   enabled: false
 bossbar:
@@ -83,7 +72,6 @@ scoreboard:
   use-numbers: false
   static-number: 0
   delay-on-join-milliseconds: 0
-  respect-other-plugins: true
   scoreboards:
     scoreboard-1.20.3+:
       title: <#E0B11E>MyServer</#FF0000>
@@ -219,5 +207,8 @@ global-playerlist:
     group2:
     - server1
     - server2
+  update-latency: false
 use-bukkit-permissions-manager: true
 use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
+enable-redisbungee-support: true

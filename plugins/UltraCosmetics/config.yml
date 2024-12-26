@@ -299,6 +299,9 @@ TreasureChests:
   #
   # [BETA] Set to '' to store unlocked cosmetics in data files or SQL
   Permission-Add-Command: ''
+  # If this is set to true, players won't be able to run any commands while opening chests,
+  # unless they have the permission ultracosmetics.disabledcommands.bypass
+  Prevent-Commands-While-Opening: false
 
 # This option will fill the blank slots of inventories
 # with a custom item!
@@ -641,6 +644,8 @@ Gadgets:
     # Price to buy individually in GUI
     # Only works if No-Permission.Allow-Purchase is true and this setting > 0
     Purchase-Price: 500
+    # Whether the portals should affect players other than the owner.
+    Affects-Others: 'true'
   PaintballGun:
     Cooldown: 0.5
     Enabled: true
@@ -1850,6 +1855,8 @@ Morphs:
     # Whether to disable fall damage while this morph is equipped.
     # (Normal use of the morph may cause fall damage otherwise.)
     No-Fall-Damage: true
+    # The jump speed of the slime morph ability
+    Jump-Speed: 2.3
   Creeper:
     # Should it affect players? (Velocity, etc.)
     Affect-Players: true
@@ -2617,6 +2624,18 @@ Morphs:
     # Only works if No-Permission.Allow-Purchase is true and this setting > 0
     Purchase-Price: 500
   Shulker:
+    Enabled: true
+    # Whether to show description when hovering in GUI
+    Show-Description: true
+    # The higher the weight, the better the chance of
+    # finding this cosmetic when this category is picked.
+    # Fractional values are not allowed.
+    # Set to 0 to disable finding in chests.
+    Treasure-Chest-Weight: 1
+    # Price to buy individually in GUI
+    # Only works if No-Permission.Allow-Purchase is true and this setting > 0
+    Purchase-Price: 500
+  Sniffer:
     Enabled: true
     # Whether to show description when hovering in GUI
     Show-Description: true
@@ -5984,3 +6003,43 @@ Projectile-Effects:
     # Price to buy individually in GUI
     # Only works if No-Permission.Allow-Purchase is true and this setting > 0
     Purchase-Price: 500
+
+# Describes how UC should interact with plugins through the Vault API with regard to
+# a player's minimum balance. Available options are:
+# - 'delegate': UC will let the economy plugin decide whether a player has enough money to make a purchase.
+#     Your economy plugin should do this, so USE 'delegate' UNLESS you're experiencing an issue.
+#
+# - 'nonnegative': UC will assume that players must have a non-negative balance to make a purchase,
+#     but will still check whether the economy plugin returned a success.
+#     You may need this if your economy plugin runs async and doesn't immediately
+#     know whether a transaction can be performed.
+#
+# - 'force-nonnegative': UC will assume that players must have a non-negative balance to make a purchase,
+#     and will assume success regardless of what the economy plugin returns.
+#     You should ONLY use this if your economy plugin responds improperly to UC's requests,
+#     for example returning null instead of a response.
+Vault-Balance-Validation: delegate
+
+# Do pets have collision?
+Pets-Have-Collision: true
+
+# Can pets get in vehicles? (e.g. boats)
+Pets-Can-Ride: false
+
+# Whether non-player entities (e.g. animals) should be affected by cosmetics, such as gadgets.
+Cosmetics-Affect-Entities: true
+
+# Delay in ticks before UC should give items when the player joins, or respawns or changes worlds.
+# 1 is enough for compatibility with most plugins, but if you're experiencing issues,
+# consider increasing it to 5.
+Item-Delay:
+  Join: 1
+  World-Change-Or-Respawn: 0
+
+# Whether UC should always unequip/reequip cosmetics when changing worlds.
+# Enable this if you use MV-Inventories or a similar plugin.
+Always-Update-Cosmetics-On-World-Change: false
+
+# The thousands separator to use when displaying money amounts.
+# Set to "" to disable.
+Thousands-Separator: ','

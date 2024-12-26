@@ -1,6 +1,6 @@
-UltraCosmetics v3.4.2 permissions.
+UltraCosmetics v3.9-RELEASE permissions.
 
-Generated automatically on 2/1/24
+Generated automatically on 12/26/24
 
 ### General permissions, enabled by default:
   - ultracosmetics.receivechest
@@ -193,7 +193,6 @@ Generated automatically on 2/1/24
   - ultracosmetics.mounts.glacialsteed
   - ultracosmetics.mounts.mountoffire
   - ultracosmetics.mounts.snake
-  - ultracosmetics.mounts.hypecart
   - ultracosmetics.mounts.moltensnake
   - ultracosmetics.mounts.slimesnake
   - ultracosmetics.mounts.mountofwater
@@ -238,6 +237,7 @@ Generated automatically on 2/1/24
   - ultracosmetics.morphs.ghast
   - ultracosmetics.morphs.magmacube
   - ultracosmetics.morphs.horse
+  - ultracosmetics.morphs.sniffer
   - ultracosmetics.morphs.allay
   - ultracosmetics.morphs.frog
   - ultracosmetics.morphs.warden
