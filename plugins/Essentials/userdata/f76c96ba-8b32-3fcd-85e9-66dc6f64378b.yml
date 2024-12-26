@@ -1,9 +1,9 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
-ip-address: 103.175.186.244
+ip-address: 0:0:0:0:0:0:0:1%0
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1705914026374
-  login: 1705913921621
+  logout: 1735198239702
+  login: 1735195168197
 money: '0'
 last-account-name: eagledares1
 logoutlocation:
-  world: 1a0965c6-e29f-4a32-8239-01e30e7cdf9f
-  world-name: world
-  x: -210.31350210184144
-  y: 101.0
-  z: 455.5965165692349
-  yaw: 179.79661560058594
-  pitch: 33.77402877807617
+  world: cb0eca72-e826-44f3-9af0-0ffc2c1eb309
+  world-name: world_nether
+  x: -238.8342765076477
+  y: 81.0
+  z: -183.80934017731363
+  yaw: 19.950443267822266
+  pitch: 20.41671371459961
 lastlocation:
   world: 1a0965c6-e29f-4a32-8239-01e30e7cdf9f
   world-name: world
