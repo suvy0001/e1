@@ -1,0 +1,775 @@
+[07:51:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:51:42] [ServerMain/INFO]: Found new data pack file/OmniCut-1.11.0+1.20.zip, loading it automatically
+[07:51:43] [ServerMain/INFO]: Loaded 7 recipes
+[07:51:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[07:51:44] [Server thread/INFO]: Loading properties
+[07:51:44] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[07:51:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:51:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:51:46] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[07:51:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[07:51:46] [Server thread/INFO]: Default game type: SURVIVAL
+[07:51:46] [Server thread/INFO]: Generating keypair
+[07:51:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:51:46] [Server thread/INFO]: Using epoll channel type
+[07:51:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:51:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[07:51:47] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loading 1 libraries... please wait
+[07:51:47] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/e1/libraries/com/zaxxer/HikariCP/6.2.1/HikariCP-6.2.1.jar
+[07:51:47] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /workspaces/e1/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[07:51:47] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[07:51:51] [Server thread/WARN]: Legacy plugin KissMe v1.0 does not specify an api-version.
+[07:51:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[07:51:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[07:51:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:51:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:51:52] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:51:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:51:52] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.151
+[07:51:53] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:51:53] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[07:51:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[07:51:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.0
+[07:51:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[07:51:53] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.44
+[07:51:53] [Server thread/INFO]: [OmegaVision] Loading server plugin OmegaVision v2.5.16
+[07:51:53] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[07:51:53] [Server thread/INFO]: [AntiPopup] Loading server plugin AntiPopup v10.1
+[07:51:56] [Server thread/INFO]: [AntiPopup] Loaded PacketEvents.
+[07:51:56] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.13.0
+[07:51:56] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.9-RELEASE
+[07:51:56] [Server thread/INFO]: [ServerListPlus] Loading server plugin ServerListPlus v3.5.0
+[07:51:56] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[07:51:56] [Server thread/INFO]: [KissMe] Loading server plugin KissMe v1.0
+[07:51:56] [Server thread/INFO]: [HeadDatabase] Loading server plugin HeadDatabase v4.18.0
+[07:51:56] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[07:51:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1013b097]
+[07:51:57] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+151-f2af952
+[07:51:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:51:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.151
+[07:51:57] [Server thread/INFO]:         __    
+[07:51:57] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.151
+[07:51:57] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:51:57] [Server thread/INFO]: 
+[07:51:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:51:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:51:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:51:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:51:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1415ms)
+[07:51:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:51:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:51:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:51:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:51:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:51:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[07:51:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[07:51:58] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[07:51:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[07:51:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:51:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.1]
+[07:51:59] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[07:51:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[07:52:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[07:52:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:52:00] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:52:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[07:52:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:52:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:52:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:52:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:52:01] [Server thread/INFO]: Preparing level "world"
+[07:52:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:52:02] [Server thread/INFO]: Time elapsed: 183 ms
+[07:52:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:52:02] [Server thread/INFO]: Time elapsed: 92 ms
+[07:52:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:52:02] [Server thread/INFO]: Time elapsed: 28 ms
+[07:52:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[07:52:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[07:52:02] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[07:52:02] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[07:52:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.0
+[07:52:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[07:52:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[07:52:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[07:52:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[07:52:03] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[07:52:03] [Server thread/INFO]: [Essentials] Using locale en
+[07:52:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:52:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:52:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[07:52:04] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:52:04] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.44
+[07:52:04] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.44-Free.jar
+[07:52:04] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_20_R1) (LD: v1_20_R1) (MC: 1.20.1)
+[07:52:04] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1314
+[07:52:04] [Server thread/INFO]: [LibsDisguises] Build Date: 10/04/2024 02:12
+[07:52:04] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[07:52:04] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[07:52:04] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'false', LD will hide oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[07:52:06] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[07:52:06] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[07:52:06] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[07:52:07] [Server thread/INFO]: [OmegaVision] Enabling OmegaVision v2.5.16
+[07:52:07] [Server thread/INFO]: [OmegaVision] Attempting to update the config files....
+[07:52:07] [Server thread/INFO]:   ____ _   __
+[07:52:07] [Server thread/INFO]:  / __ \ | / /   OmegaVision v2.5.16 by OmegaWeaponDev
+[07:52:07] [Server thread/INFO]: / /_/ / |/ /    Running on version: git-Paper-196 (MC: 1.20.1)
+[07:52:07] [Server thread/INFO]: \____/|___/
+[07:52:07] [Server thread/INFO]: 
+[07:52:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: omegavision [2.5.16]
+[07:52:07] [Server thread/INFO]: [OmegaVision] OmegaVision is now attempting to register it's commands...
+[07:52:07] [Server thread/INFO]: [OmegaVision] OmegaVision has successfully registered all of it's commands.
+[07:52:07] [Server thread/INFO]: [AntiPopup] Enabling AntiPopup v10.1
+[07:52:07] [Server thread/INFO]: [AntiPopup] Config enabled.
+[07:52:07] [Server thread/INFO]: [AntiPopup] Loaded a hook for ViaVersion.
+[07:52:07] [Server thread/INFO]: [AntiPopup] Registered a modifier targeted for versions older than 1.20.5.
+[07:52:07] [Server thread/INFO]: [AntiPopup] Initiated PacketEvents.
+[07:52:07] [Server thread/INFO]: [AntiPopup] Hooked on 1.20.1
+[07:52:07] [Server thread/INFO]: [AntiPopup] Commands registered.
+[07:52:07] [Server thread/INFO]: [AntiPopup] Logger filter enabled.
+[07:52:07] [Server thread/INFO]: [GSit] Enabling GSit v1.13.0
+[07:52:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.13.0]
+[07:52:07] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[07:52:07] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.9-RELEASE
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Checking for update...
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.9-RELEASE (commit f257108f)
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Initializing module v1_20 (expected version: 1.20.6)
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Loading NMS-less mode...
+[07:52:07] [Server thread/INFO]: [UltraCosmetics] Loaded NMS-less mode
+[07:52:08] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] 
+[07:52:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultracosmetics [3.9-RELEASE]
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] Hooked into PlaceholderAPI
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] 
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] Hooked into Vault:EssentialsX Economy for economy.
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] 
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] 
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 2333ms!
+[07:52:09] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[07:52:09] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.5.0
+[07:52:09] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[07:52:10] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[07:52:10] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[07:52:10] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: BukkitConf
+[07:52:10] [Server thread/INFO]: [ServerListPlus] ProtocolLib is no longer required (and used) by default when using Paper. If this causes compatibility issues with other plugins, try setting ProtocolLib: ENABLE
+[07:52:10] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[07:52:10] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[07:52:10] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 enabled.
+[07:52:10] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[07:52:10] [Server thread/INFO]: [TAB] Loaded NMS hook in 71ms
+[07:52:10] [Server thread/INFO]: [TAB] [WARN] [config.yml] Missing configuration section "placeholders.register-tab-expansion" of type Boolean, using default value false.
+[07:52:10] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "customtagname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[07:52:10] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "abovename" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[07:52:10] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "belowname" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[07:52:10] [Server thread/INFO]: [TAB] [WARN] Found a total of 4 issues.
+[07:52:10] [Server thread/INFO]: [TAB] Enabled in 200ms
+[07:52:10] [Server thread/INFO]: [KissMe] Enabling KissMe v1.0*
+[07:52:10] [Server thread/INFO]: [KissMe] [STDOUT] [KissMe] activated
+[07:52:10] [Server thread/WARN]: Nag author(s): '[SickRed]' of 'KissMe v1.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[07:52:10] [Server thread/INFO]: [HeadDatabase] Enabling HeadDatabase v4.18.0
+[07:52:10] [Server thread/INFO]: [HeadDatabase] [STDOUT] [Spigotunlocked.com] - COSMO
+[07:52:10] [Server thread/WARN]: Nag author(s): '[Arcaniax]' of 'HeadDatabase v4.18.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[07:52:10] [Server thread/INFO]: [HeadDatabase] §bUsing default §3"en_US.lang" §bcreated by §6Arcaniax
+[07:52:10] [Server thread/WARN]: [HeadDatabase] Economy was not loaded, some features will be disabled!
+[07:52:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: hdb [4.18.0]
+[07:52:10] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+151-f2af952
+[07:52:10] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[07:52:10] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[07:52:10] [Server thread/INFO]: Running delayed init tasks
+[07:52:11] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:52:11] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[07:52:11] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[07:52:11] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:52:11] [Server thread/INFO]: Done (26.366s)! For help, type "help"
+[07:52:11] [Server thread/INFO]: Timings Reset
+[07:52:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[07:52:11] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[07:52:11] [Craft Scheduler Thread - 2 - OmegaVision/INFO]: [OmegaVision] You are already running the latest version
+[07:52:11] [Craft Scheduler Thread - 5 - UltraCosmetics/INFO]: [UltraCosmetics] You are running the latest version on Spigot.
+[07:52:11] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
+[07:52:12] [Folia Async Scheduler Thread #3/INFO]: [HeadDatabase] Successfully loaded 80760 heads!
+[07:52:12] [Folia Async Scheduler Thread #3/INFO]: [HeadDatabase] Successfully loaded 18 featured tags!
+[07:52:13] [Folia Async Scheduler Thread Timer/ERROR]: [HeadDatabase] Unable to check for updates. Error: Server returned HTTP response code: 400 for URL: https://api.spigotmc.org/simple/0.1/index.php?action=getResource&id=%%__RESOURCE__%%
+[07:52:21] [User Authenticator #0/INFO]: UUID of player Croton is 500fa7e0-70ba-306c-a09f-840a21fc7fbb
+[07:52:21] [Server thread/INFO]: Croton joined the game
+[07:52:21] [Server thread/INFO]: Croton[/[0:0:0:0:0:0:0:1%0]:39344] logged in with entity id 304 at ([world]-5.5, 74.0, 39.5)
+[07:52:27] [Server thread/INFO]: Croton lost connection: Disconnected
+[07:52:27] [Server thread/INFO]: Croton left the game
+[07:52:34] [User Authenticator #0/INFO]: UUID of player Legendaryxxx is f740b3e1-520d-33ee-af20-d4486f8896ef
+[07:52:35] [Server thread/INFO]: Legendaryxxx joined the game
+[07:52:35] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:34828] logged in with entity id 439 at ([world]13.791268189616416, 104.0, 1003.6999999880791)
+[08:22:10] [Craft Scheduler Thread - 125 - LibsDisguises/INFO]: [LibsDisguises] Now looking for update on Github..
+[08:22:18] [Server thread/WARN]: Horse (vehicle of Legendaryxxx) moved wrongly! 0.3028324701231213
+[08:22:18] [Server thread/WARN]: Horse (vehicle of Legendaryxxx) moved wrongly! 0.7206638698039569
+[08:25:10] [Server thread/WARN]: Horse (vehicle of Legendaryxxx) moved wrongly! 1.4227034747170064
+[08:39:47] [Server thread/INFO]: Legendaryxxx issued server command: /gamerule randomTickSpeed
+[08:40:44] [Server thread/INFO]: Legendaryxxx issued server command: /gamerule randomTickSpeed 100
+[08:40:44] [Server thread/INFO]: [Legendaryxxx: Gamerule randomTickSpeed is now set to: 100]
+[08:41:19] [Server thread/INFO]: Legendaryxxx issued server command: /gamerule randomTickSpeed 200
+[08:41:19] [Server thread/INFO]: [Legendaryxxx: Gamerule randomTickSpeed is now set to: 200]
+[08:44:01] [Server thread/INFO]: Legendaryxxx issued server command: /gamerule randomTickSpeed 300
+[08:44:01] [Server thread/INFO]: [Legendaryxxx: Gamerule randomTickSpeed is now set to: 300]
+[08:51:15] [Server thread/INFO]: Legendaryxxx has made the advancement [What a Deal!]
+[09:04:20] [Server thread/INFO]: Legendaryxxx lost connection: Disconnected
+[09:04:20] [Server thread/INFO]: Legendaryxxx left the game
+[09:18:15] [User Authenticator #1/INFO]: UUID of player Legendaryxxx is f740b3e1-520d-33ee-af20-d4486f8896ef
+[09:18:15] [Server thread/INFO]: Legendaryxxx joined the game
+[09:18:15] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:42968] logged in with entity id 16161 at ([world]908.13720703125, 66.8500000178814, 1696.844482421875)
+[09:20:28] [User Authenticator #2/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[09:20:28] [Server thread/INFO]: eagledares1 joined the game
+[09:20:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Player eagledares1's group (bbg) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[09:20:28] [Server thread/INFO]: eagledares1[/[0:0:0:0:0:0:0:1%0]:52676] logged in with entity id 16936 at ([world]21.452153211574576, 93.0, 1008.8311291327357)
+[09:20:38] [Async Chat Thread - #1/INFO]: Legendaryxxx: doon't
+[09:20:40] [Async Chat Thread - #0/INFO]: Legendaryxxx: spill
+[09:20:41] [Async Chat Thread - #1/INFO]: Legendaryxxx: the
+[09:20:42] [Async Chat Thread - #0/INFO]: Legendaryxxx: tea
+[09:20:46] [Async Chat Thread - #1/INFO]: Legendaryxxx: on urself.
+[09:20:50] [Async Chat Thread - #0/INFO]: Legendaryxxx: OMG
+[09:22:23] [Async Chat Thread - #2/INFO]: [BBG] ms.aBee: what happen
+[09:22:28] [Async Chat Thread - #3/INFO]: Legendaryxxx: pilager
+[09:22:29] [Async Chat Thread - #2/INFO]: Legendaryxxx: outpost
+[09:22:38] [Async Chat Thread - #3/INFO]: [BBG] ms.aBee: where
+[09:22:43] [Async Chat Thread - #2/INFO]: Legendaryxxx: 1000 blocks away
+[09:22:46] [Async Chat Thread - #3/INFO]: Legendaryxxx: im comig
+[09:22:58] [Async Chat Thread - #2/INFO]: [BBG] ms.aBee: giv cords
+[09:23:02] [Async Chat Thread - #3/INFO]: Legendaryxxx: bro
+[09:23:09] [Async Chat Thread - #2/INFO]: Legendaryxxx: i already am cming to base
+[09:23:11] [Async Chat Thread - #3/INFO]: [BBG] ms.aBee: did u rob it?
+[09:23:13] [Async Chat Thread - #2/INFO]: Legendaryxxx: i dint
+[09:23:16] [Async Chat Thread - #3/INFO]: Legendaryxxx: they have nthn gud
+[09:23:19] [Async Chat Thread - #2/INFO]: Legendaryxxx: tho.
+[09:23:22] [Async Chat Thread - #3/INFO]: [BBG] ms.aBee: giv cords
+[09:23:30] [Async Chat Thread - #2/INFO]: [BBG] ms.aBee: theyre fun to rob
+[09:23:34] [Async Chat Thread - #3/INFO]: Legendaryxxx: hmmmmmmmmm
+[09:23:45] [Async Chat Thread - #2/INFO]: Legendaryxxx: 699 1574
+[09:23:56] [Async Chat Thread - #3/INFO]: Legendaryxxx: im coming to the pillager then
+[09:25:23] [Async Chat Thread - #5/INFO]: Legendaryxxx: lmk when u come there
+[09:25:25] [Async Chat Thread - #4/INFO]: Legendaryxxx: im uh
+[09:25:27] [Async Chat Thread - #5/INFO]: Legendaryxxx: WAIT
+[09:25:32] [Async Chat Thread - #4/INFO]: Legendaryxxx: u aren't travelling on horse
+[09:25:34] [Async Chat Thread - #5/INFO]: Legendaryxxx: r u..?
+[09:25:44] [Async Chat Thread - #4/INFO]: [BBG] ms.aBee: nop
+[09:25:48] [Async Chat Thread - #5/INFO]: Legendaryxxx: OMG
+[09:25:52] [Async Chat Thread - #4/INFO]: Legendaryxxx: UR HORSE IS RIGHT THERE
+[09:25:55] [Async Chat Thread - #5/INFO]: [BBG] ms.aBee: i didnt even come
+[09:25:58] [Async Chat Thread - #4/INFO]: [BBG] ms.aBee: im at the base.
+[09:25:58] [Async Chat Thread - #4/INFO]: Legendaryxxx: dont
+[09:26:00] [Async Chat Thread - #4/INFO]: Legendaryxxx: dont come.
+[09:26:02] [Async Chat Thread - #6/INFO]: Legendaryxxx: wait.
+[09:27:23] [Async Chat Thread - #7/INFO]: [BBG] ms.aBee: shdu i not come?
+[09:27:26] [Async Chat Thread - #8/INFO]: Legendaryxxx: u shud
+[09:27:28] [Async Chat Thread - #7/INFO]: Legendaryxxx: but u wait.
+[09:27:31] [Async Chat Thread - #8/INFO]: Legendaryxxx: im coming to base
+[09:27:33] [Async Chat Thread - #7/INFO]: Legendaryxxx: to show u ur horse
+[09:27:38] [Async Chat Thread - #8/INFO]: [BBG] ms.aBee: ik where it is
+[09:27:42] [Async Chat Thread - #7/INFO]: Legendaryxxx: OMG
+[09:27:44] [Async Chat Thread - #8/INFO]: Legendaryxxx: IF YOU KNOW
+[09:27:46] [Async Chat Thread - #7/INFO]: Legendaryxxx: omg
+[09:27:54] [Async Chat Thread - #8/INFO]: [BBG] ms.aBee: ..wat
+[09:28:04] [Async Chat Thread - #8/INFO]: Legendaryxxx: i thought u dint know
+[09:28:09] [Async Chat Thread - #7/INFO]: Legendaryxxx: so i was cming to show u it ;^
+[09:28:19] [Async Chat Thread - #8/INFO]: Legendaryxxx: well iv sm more things to show
+[09:28:21] [Async Chat Thread - #7/INFO]: Legendaryxxx: so yuh.
+[09:28:33] [Async Chat Thread - #7/INFO]: [BBG] ms.aBee: but im literally coming to u
+[09:28:40] [Async Chat Thread - #8/INFO]: Legendaryxxx: r u serious?
+[09:28:47] [Async Chat Thread - #7/INFO]: [BBG] ms.aBee: probably
+[09:28:49] [Async Chat Thread - #8/INFO]: Legendaryxxx: give ur coords
+[09:28:57] [Async Chat Thread - #7/INFO]: [BBG] ms.aBee: 157
+[09:29:04] [Async Chat Thread - #8/INFO]: Legendaryxxx: eh
+[09:29:40] [Async Chat Thread - #7/INFO]: [BBG] ms.aBee: i almost died
+[09:29:46] [Async Chat Thread - #8/INFO]: Legendaryxxx: im at base
+[09:29:59] [Async Chat Thread - #7/INFO]: [BBG] ms.aBee: im in the ocean and i hv to go afk.
+[09:30:06] [Async Chat Thread - #8/INFO]: Legendaryxxx: omg.
+[09:30:09] [Async Chat Thread - #7/INFO]: [BBG] ms.aBee: afk
+[09:30:35] [Async Chat Thread - #8/INFO]: [BBG] ms.aBee: back
+[09:32:45] [Async Chat Thread - #9/INFO]: [BBG] ms.aBee: oh
+[09:32:46] [Async Chat Thread - #11/INFO]: [BBG] ms.aBee: carrots.
+[09:32:47] [Async Chat Thread - #9/INFO]: Legendaryxxx: oh
+[09:32:49] [Async Chat Thread - #9/INFO]: Legendaryxxx: carrots
+[09:32:54] [Async Chat Thread - #11/INFO]: Legendaryxxx: i've carrots too
+[09:33:01] [Async Chat Thread - #9/INFO]: [BBG] ms.aBee: did u breed them?
+[09:33:05] [Async Chat Thread - #9/INFO]: Legendaryxxx: i din't
+[09:33:06] [Async Chat Thread - #11/INFO]: Legendaryxxx: yet
+[09:33:16] [Async Chat Thread - #9/INFO]: Legendaryxxx: u shud come to base.
+[09:33:17] [Async Chat Thread - #11/INFO]: Legendaryxxx: first
+[09:34:08] [Server thread/INFO]: Legendaryxxx issued server command: /v
+[09:34:10] [Server thread/INFO]: Legendaryxxx issued server command: /v
+[09:34:15] [Async Chat Thread - #9/INFO]: [BBG] ms.aBee: they poor
+[09:34:23] [Async Chat Thread - #9/INFO]: Legendaryxxx: pillagers?
+[09:34:25] [Async Chat Thread - #11/INFO]: [BBG] ms.aBee: ye
+[09:34:54] [Async Chat Thread - #9/INFO]: Legendaryxxx: don't break my sugarcanes
+[09:34:59] [Async Chat Thread - #11/INFO]: [BBG] ms.aBee: did u rob that village?
+[09:35:02] [Async Chat Thread - #9/INFO]: Legendaryxxx: yes
+[09:35:19] [Async Chat Thread - #12/INFO]: [BBG] ms.aBee: of these sugarcanes
+[09:35:21] [Async Chat Thread - #9/INFO]: [BBG] ms.aBee: oh*
+[09:35:27] [Async Chat Thread - #9/INFO]: Legendaryxxx: yus
+[09:39:51] [Async Chat Thread - #13/INFO]: Legendaryxxx: wyd
+[09:39:53] [Async Chat Thread - #13/INFO]: Legendaryxxx: where are you
+[09:39:59] [Async Chat Thread - #14/INFO]: [BBG] ms.aBee: travelling
+[09:40:05] [Async Chat Thread - #13/INFO]: Legendaryxxx: O
+[09:41:31] [Async Chat Thread - #15/INFO]: [BBG] ms.aBee: sleep
+[09:43:24] [Async Chat Thread - #17/INFO]: Legendaryxxx: gib coords
+[09:44:53] [Async Chat Thread - #19/INFO]: Legendaryxxx: brO?
+[09:45:10] [Async Chat Thread - #20/INFO]: [BBG] ms.aBee: yuh
+[09:45:12] [Async Chat Thread - #20/INFO]: [BBG] ms.aBee: i was afk
+[09:45:15] [Async Chat Thread - #20/INFO]: [BBG] ms.aBee: 1226
+[09:45:17] [Async Chat Thread - #19/INFO]: [BBG] ms.aBee: 2306
+[09:49:37] [Async Chat Thread - #21/INFO]: Legendaryxxx: where naw
+[09:49:53] [Async Chat Thread - #21/INFO]: [BBG] ms.aBee: 1054 2497
+[09:49:56] [Async Chat Thread - #22/INFO]: [BBG] ms.aBee: im coming back
+[09:50:07] [Async Chat Thread - #21/INFO]: Legendaryxxx: ..
+[09:50:12] [Async Chat Thread - #22/INFO]: [BBG] ms.aBee: wat
+[09:50:14] [Async Chat Thread - #21/INFO]: [BBG] ms.aBee: i found nothing
+[09:50:15] [Async Chat Thread - #22/INFO]: Legendaryxxx: nothing.
+[09:50:24] [Async Chat Thread - #21/INFO]: [BBG] ms.aBee: except dark oak
+[09:51:40] [Server thread/WARN]: Horse (vehicle of Legendaryxxx) moved wrongly! 0.2532399486481154
+[09:52:15] [Async Chat Thread - #23/INFO]: [BBG] ms.aBee: sleep
+[09:52:19] [Async Chat Thread - #24/INFO]: Legendaryxxx: can't
+[10:01:05] [Async Chat Thread - #25/INFO]: [BBG] ms.aBee: buried tressure
+[10:01:51] [Async Chat Thread - #26/INFO]: [BBG] ms.aBee: diamond from a ship
+[10:01:52] [Async Chat Thread - #25/INFO]: [BBG] ms.aBee: waw
+[10:02:06] [Async Chat Thread - #26/INFO]: Legendaryxxx: waw
+[10:02:18] [Async Chat Thread - #25/INFO]: [BBG] ms.aBee: im really lost.
+[10:02:31] [Async Chat Thread - #26/INFO]: Legendaryxxx: ..
+[10:03:59] [Async Chat Thread - #27/INFO]: [BBG] ms.aBee: i cant fidn the damn treasure
+[10:04:04] [Async Chat Thread - #28/INFO]: [BBG] ms.aBee: scam
+[10:04:08] [Async Chat Thread - #27/INFO]: Legendaryxxx: ;-;
+[10:05:08] [Async Chat Thread - #29/INFO]: [BBG] ms.aBee: sleep4
+[10:06:57] [Async Chat Thread - #31/INFO]: Legendaryxxx: do i go nether
+[10:06:59] [Async Chat Thread - #32/INFO]: Legendaryxxx: or come to you
+[10:07:00] [Async Chat Thread - #31/INFO]: Legendaryxxx: or what
+[10:07:04] [Async Chat Thread - #32/INFO]: [BBG] ms.aBee: u can go
+[10:08:22] [Async Chat Thread - #33/INFO]: Legendaryxxx: what th are u doing
+[10:08:34] [Async Chat Thread - #33/INFO]: [BBG] ms.aBee: tryna find treasure
+[10:08:38] [Async Chat Thread - #34/INFO]: Legendaryxxx: STILL?
+[10:08:39] [Async Chat Thread - #33/INFO]: Legendaryxxx: LOL
+[10:08:41] [Async Chat Thread - #34/INFO]: [BBG] ms.aBee: bro.
+[10:08:46] [Async Chat Thread - #33/INFO]: [BBG] ms.aBee: i dug the whole ground.
+[10:08:46] [Async Chat Thread - #34/INFO]: Legendaryxxx: u dug up the entire earth
+[10:08:49] [Async Chat Thread - #33/INFO]: [BBG] ms.aBee: fr?
+[10:08:49] [Async Chat Thread - #34/INFO]: Legendaryxxx: but no treasure
+[10:08:49] [Async Chat Thread - #34/INFO]: [BBG] ms.aBee: like.
+[10:08:50] [Async Chat Thread - #33/INFO]: Legendaryxxx: LOL
+[10:08:58] [Async Chat Thread - #34/INFO]: [BBG] ms.aBee: its pissing me off.
+[10:09:03] [Async Chat Thread - #33/INFO]: Legendaryxxx: LOLOLOL
+[10:09:21] [Async Chat Thread - #35/INFO]: [BBG] ms.aBee: chutiya
+[10:09:47] [Async Chat Thread - #33/INFO]: Legendaryxxx: LOL
+[10:11:54] [Async Chat Thread - #36/INFO]: Legendaryxxx: oo
+[10:13:14] [Server thread/INFO]: Legendaryxxx issued server command: /locate structure minecraft:fortress
+[10:13:14] [Server thread/INFO]: Locating element minecraft:fortress took 1 ms
+[10:13:56] [Async Chat Thread - #38/INFO]: [BBG] ms.aBee: OMGGGGGGGGGGGGGGGGGGGGGGGG
+[10:14:01] [Async Chat Thread - #39/INFO]: Legendaryxxx: ????????????????????????????????????????????????????
+[10:14:06] [Async Chat Thread - #39/INFO]: [BBG] ms.aBee: I CANT
+[10:14:08] [Async Chat Thread - #39/INFO]: [BBG] ms.aBee: FIND IT
+[10:14:17] [Async Chat Thread - #38/INFO]: Legendaryxxx: LMAOOOOOOOOOOOOOO
+[10:16:14] [Async Chat Thread - #40/INFO]: [BBG] ms.aBee: fuck this
+[10:16:21] [Async Chat Thread - #40/INFO]: Legendaryxxx: HAHAHAHA
+[10:16:27] [Async Chat Thread - #40/INFO]: [BBG] ms.aBee: who ever made this is a fat nigga
+[10:16:33] [Async Chat Thread - #41/INFO]: Legendaryxxx: LMAOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[10:16:45] [Async Chat Thread - #40/INFO]: [BBG] ms.aBee: *proceeds to find it*
+[10:17:11] [Async Chat Thread - #41/INFO]: Legendaryxxx: ;----------------------------------;
+[10:17:13] [Async Chat Thread - #40/INFO]: Legendaryxxx: u can't
+[10:17:18] [Async Chat Thread - #41/INFO]: [BBG] ms.aBee: MY
+[10:17:19] [Async Chat Thread - #40/INFO]: [BBG] ms.aBee: DIAMOND
+[10:17:21] [Async Chat Thread - #40/INFO]: [BBG] ms.aBee: SHOVEL
+[10:17:22] [Async Chat Thread - #41/INFO]: [BBG] ms.aBee: IS ABOUT
+[10:17:23] [Async Chat Thread - #41/INFO]: [BBG] ms.aBee: O DIE.
+[10:17:27] [Async Chat Thread - #40/INFO]: Legendaryxxx: LOOOOOOOOOOOOOOOL
+[10:18:16] [Async Chat Thread - #40/INFO]: Legendaryxxx: wait
+[10:18:17] [Async Chat Thread - #41/INFO]: Legendaryxxx: what?
+[10:18:19] [Async Chat Thread - #40/INFO]: [BBG] ms.aBee: FOUND IT.
+[10:18:20] [Async Chat Thread - #41/INFO]: Legendaryxxx: i see a portal.
+[10:18:25] [Async Chat Thread - #42/INFO]: [BBG] ms.aBee: GRAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+[10:18:25] [Async Chat Thread - #42/INFO]: Legendaryxxx: not made by me......
+[10:18:29] [Async Chat Thread - #41/INFO]: Legendaryxxx: WAW GG
+[10:18:30] [Async Chat Thread - #42/INFO]: [BBG] ms.aBee: ..
+[10:18:32] [Async Chat Thread - #41/INFO]: [BBG] ms.aBee: it has,
+[10:18:35] [Async Chat Thread - #42/INFO]: [BBG] ms.aBee: it has..
+[10:18:38] [Async Chat Thread - #41/INFO]: Legendaryxxx: ????????????
+[10:18:42] [Async Chat Thread - #42/INFO]: [BBG] ms.aBee: trash..
+[10:18:45] [Async Chat Thread - #41/INFO]: Legendaryxxx: heart of the sea
+[10:18:47] [Async Chat Thread - #42/INFO]: Legendaryxxx: get that
+[10:18:50] [Async Chat Thread - #42/INFO]: [BBG] ms.aBee: whta does it do
+[10:18:53] [Async Chat Thread - #42/INFO]: Legendaryxxx: conduit
+[10:18:57] [Async Chat Thread - #41/INFO]: [BBG] ms.aBee: fuck
+[10:18:58] [Async Chat Thread - #42/INFO]: [BBG] ms.aBee: is tha]
+[10:19:01] [Async Chat Thread - #42/INFO]: Legendaryxxx: .
+[10:19:07] [Async Chat Thread - #42/INFO]: Legendaryxxx: unlimited water breathing-
+[10:19:18] [Async Chat Thread - #42/INFO]: [BBG] ms.aBee: idh space
+[10:19:21] [Async Chat Thread - #41/INFO]: Legendaryxxx: take it
+[10:19:23] [Async Chat Thread - #41/INFO]: [BBG] ms.aBee: ofr the gyat of sea
+[10:19:27] [Async Chat Thread - #42/INFO]: Legendaryxxx: take it bruh
+[10:21:17] [Async Chat Thread - #43/INFO]: [BBG] ms.aBee: home cords..
+[10:21:20] [Async Chat Thread - #44/INFO]: Legendaryxxx: ..
+[10:21:43] [Async Chat Thread - #43/INFO]: Legendaryxxx: 13 1004
+[10:21:54] [Async Chat Thread - #43/INFO]: Legendaryxxx: waow
+[10:22:01] [Async Chat Thread - #44/INFO]: [BBG] ms.aBee: jus a 1400 blocks away..
+[10:22:23] [Async Chat Thread - #43/INFO]: Legendaryxxx: found the linked portal huh
+[10:23:03] [Server thread/INFO]: Legendaryxxx issued server command: /locate structure minecraft:fortress
+[10:23:03] [Server thread/INFO]: Locating element minecraft:fortress took 0 ms
+[10:24:12] [Async Chat Thread - #45/INFO]: [BBG] ms.aBee: cherry blossom
+[10:24:17] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: tf
+[10:24:18] [Async Chat Thread - #45/INFO]: Legendaryxxx: it's the same
+[10:24:19] [Async Chat Thread - #46/INFO]: Legendaryxxx: one
+[10:24:20] [Async Chat Thread - #45/INFO]: Legendaryxxx: prolly
+[10:24:21] [Async Chat Thread - #45/INFO]: Legendaryxxx: LOL
+[10:24:29] [Async Chat Thread - #45/INFO]: [BBG] ms.aBee: that means im close
+[10:24:33] [Async Chat Thread - #46/INFO]: Legendaryxxx: yes
+[10:25:08] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: its not same.
+[10:25:12] [Async Chat Thread - #45/INFO]: Legendaryxxx: oo
+[10:25:16] [Async Chat Thread - #46/INFO]: Legendaryxxx: u never know.
+[10:25:17] [Async Chat Thread - #45/INFO]: [BBG] ms.aBee: there are only 4 trees.
+[10:25:20] [Async Chat Thread - #45/INFO]: Legendaryxxx: ..
+[10:25:21] [Async Chat Thread - #45/INFO]: Legendaryxxx: LOL
+[10:25:22] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: ..
+[10:25:32] [Async Chat Thread - #46/INFO]: Legendaryxxx: ooo
+[10:25:36] [Async Chat Thread - #46/INFO]: Legendaryxxx: so this is the fortress
+[10:25:45] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: nyeah
+[10:25:51] [Async Chat Thread - #45/INFO]: [BBG] ms.aBee: owh maw gawhh
+[10:25:54] [Async Chat Thread - #45/INFO]: [BBG] ms.aBee: i found another village
+[10:25:55] [Async Chat Thread - #45/INFO]: Legendaryxxx: ?????????
+[10:25:58] [Async Chat Thread - #45/INFO]: Legendaryxxx: ;0
+[10:26:01] [Async Chat Thread - #45/INFO]: [BBG] ms.aBee: sigh.
+[10:26:25] [Async Chat Thread - #46/INFO]: Legendaryxxx: wUT
+[10:26:27] [Async Chat Thread - #46/INFO]: Legendaryxxx: why u siging
+[10:26:43] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: can u mnake
+[10:26:45] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: a
+[10:26:47] [Async Chat Thread - #45/INFO]: Legendaryxxx: A
+[10:26:48] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: map paper?
+[10:26:55] [Async Chat Thread - #46/INFO]: Legendaryxxx: a map
+[10:26:56] [Async Chat Thread - #45/INFO]: Legendaryxxx: ?
+[10:26:58] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: ye
+[10:27:05] [Async Chat Thread - #45/INFO]: Legendaryxxx: yes but why
+[10:27:11] [Async Chat Thread - #46/INFO]: Legendaryxxx: trust me, it's hard to follow.
+[10:27:13] [Async Chat Thread - #45/INFO]: [BBG] ms.aBee: jus curious
+[10:27:19] [Async Chat Thread - #45/INFO]: Legendaryxxx: yes i can
+[10:27:20] [Async Chat Thread - #46/INFO]: Legendaryxxx: ;-;
+[10:27:35] [Async Chat Thread - #45/INFO]: Legendaryxxx: i think u shud keep a compass or smthn
+[10:27:46] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: i got a compass
+[10:27:54] [Async Chat Thread - #46/INFO]: Legendaryxxx: u shud use it
+[10:27:56] [Async Chat Thread - #46/INFO]: Legendaryxxx: if u've
+[10:27:59] [Async Chat Thread - #45/INFO]: Legendaryxxx: respawn point
+[10:28:01] [Async Chat Thread - #46/INFO]: Legendaryxxx: at base
+[10:28:02] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: this village is stacked
+[10:28:07] [Async Chat Thread - #46/INFO]: Legendaryxxx: ;o
+[10:28:10] [Server thread/INFO]: Legendaryxxx has made the advancement [A Terrible Fortress]
+[10:29:03] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: idt we'll ever run out of food.
+[10:29:10] [Async Chat Thread - #45/INFO]: Legendaryxxx: we won't
+[10:29:17] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: idk why i hve so much food on me
+[10:29:59] [Async Chat Thread - #46/INFO]: [BBG] ms.aBee: afk
+[10:30:03] [Async Chat Thread - #46/INFO]: Legendaryxxx: okIE
+[10:30:33] [Server thread/INFO]: Legendaryxxx has made the advancement [Into Fire]
+[10:49:11] [Server thread/INFO]: Legendaryxxx issued server command: /locate structure minecraft:bastion_remnant
+[10:49:11] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 70 ms
+[10:49:15] [Async Chat Thread - #47/INFO]: [BBG] ms.aBee: nya
+[10:49:15] [Netty Epoll Server IO #3/WARN]: Legendaryxxx sent out-of-order chat: 'wb': 1735296551 > 1735296549
+[10:49:15] [Server thread/INFO]: Legendaryxxx lost connection: Out-of-order chat packet received. Did your system time change?
+[10:49:15] [Server thread/INFO]: Legendaryxxx left the game
+[10:49:20] [User Authenticator #3/INFO]: UUID of player Legendaryxxx is f740b3e1-520d-33ee-af20-d4486f8896ef
+[10:49:20] [Server thread/INFO]: Legendaryxxx joined the game
+[10:49:20] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:48292] logged in with entity id 60947 at ([world_nether]-383.0333175595349, 73.0, 118.029937021649)
+[10:49:22] [Async Chat Thread - #48/INFO]: Legendaryxxx: wb
+[10:49:27] [Server thread/INFO]: Legendaryxxx issued server command: /locate structure minecraft:bastion_remnant
+[10:49:27] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[10:50:30] [Async Chat Thread - #49/INFO]: [BBG] ms.aBee: homee
+[10:50:39] [Async Chat Thread - #49/INFO]: Legendaryxxx: u got home?
+[10:50:41] [Async Chat Thread - #49/INFO]: [BBG] ms.aBee: nop
+[10:50:44] [Async Chat Thread - #51/INFO]: Legendaryxxx: ..
+[10:50:45] [Async Chat Thread - #49/INFO]: Legendaryxxx: then
+[10:50:51] [Async Chat Thread - #49/INFO]: [BBG] ms.aBee: more cherry blossom
+[10:50:59] [Async Chat Thread - #51/INFO]: Legendaryxxx: oooo
+[10:51:06] [Async Chat Thread - #51/INFO]: [BBG] ms.aBee: f
+[10:51:06] [Async Chat Thread - #49/INFO]: [BBG] ms.aBee: nvm
+[10:51:10] [Async Chat Thread - #49/INFO]: [BBG] ms.aBee: i went backways again
+[10:51:10] [Async Chat Thread - #49/INFO]: Legendaryxxx: LOL
+[10:51:55] [Async Chat Thread - #51/INFO]: [BBG] ms.aBee: wya
+[10:51:59] [Async Chat Thread - #51/INFO]: Legendaryxxx: neter
+[10:52:17] [Async Chat Thread - #49/INFO]: [BBG] ms.aBee: MINE SHAFFFFFFFTTTTTTT
+[10:53:20] [Server thread/INFO]: Legendaryxxx has completed the challenge [Return to Sender]
+[10:53:23] [Async Chat Thread - #52/INFO]: Legendaryxxx: YEEEEEEEEEEEEEEEEEEEEE
+[10:56:01] [Async Chat Thread - #54/INFO]: [BBG] ms.aBee: sleeeeeeeeeeeeeeeeeeeeeeeeeppppppppppppppppppppppp
+[10:56:06] [Async Chat Thread - #55/INFO]: Legendaryxxx: fym sleep
+[10:56:09] [Async Chat Thread - #54/INFO]: Legendaryxxx: im in nether
+[10:58:22] [Async Chat Thread - #56/INFO]: Legendaryxxx: i found a bastion
+[10:58:23] [Async Chat Thread - #56/INFO]: Legendaryxxx: but
+[10:58:24] [Async Chat Thread - #58/INFO]: Legendaryxxx: idk if u
+[10:58:26] [Async Chat Thread - #58/INFO]: Legendaryxxx: looted it
+[10:58:30] [Async Chat Thread - #58/INFO]: [BBG] ms.aBee: is it a small one?
+[10:58:31] [Server thread/INFO]: Legendaryxxx has made the advancement [Those Were the Days]
+[10:58:35] [Async Chat Thread - #57/INFO]: Legendaryxxx: idk tbh
+[11:01:56] [Async Chat Thread - #59/INFO]: Legendaryxxx: did ur bastion have a
+[11:01:58] [Async Chat Thread - #60/INFO]: Legendaryxxx: chest
+[11:02:00] [Async Chat Thread - #59/INFO]: Legendaryxxx: in the middle
+[11:02:03] [Async Chat Thread - #59/INFO]: Legendaryxxx: in the down
+[11:02:06] [Async Chat Thread - #59/INFO]: Legendaryxxx: ??
+[11:02:09] [Async Chat Thread - #60/INFO]: [BBG] ms.aBee: yuh
+[11:02:11] [Async Chat Thread - #60/INFO]: [BBG] ms.aBee: i think
+[11:02:21] [Async Chat Thread - #60/INFO]: [BBG] ms.aBee: omg i made it home
+[11:02:26] [Async Chat Thread - #59/INFO]: [BBG] ms.aBee: yeahhhhhh
+[11:02:30] [Async Chat Thread - #60/INFO]: Legendaryxxx: ..............
+[11:02:36] [Server thread/INFO]: Legendaryxxx issued server command: /gamemode spectator
+[11:02:48] [Server thread/INFO]: Legendaryxxx issued server command: /gamemode creative
+[11:02:49] [Server thread/INFO]: Legendaryxxx has made the advancement [War Pigs]
+[11:02:54] [Server thread/INFO]: Legendaryxxx issued server command: /gamemode spectator
+[11:03:04] [Server thread/INFO]: Legendaryxxx issued server command: /gamemode survival
+[11:03:11] [Async Chat Thread - #59/INFO]: Legendaryxxx: this is a new bastion
+[11:03:15] [Async Chat Thread - #59/INFO]: [BBG] ms.aBee: yeah
+[11:04:19] [Async Chat Thread - #61/INFO]: Legendaryxxx: loot
+[11:04:26] [Async Chat Thread - #63/INFO]: [BBG] ms.aBee: omg
+[11:04:29] [Async Chat Thread - #61/INFO]: Legendaryxxx: OMG
+[11:04:31] [Async Chat Thread - #62/INFO]: [BBG] ms.aBee: a pig thing came
+[11:04:33] [Async Chat Thread - #62/INFO]: [BBG] ms.aBee: inside the portal
+[11:04:37] [Async Chat Thread - #63/INFO]: Legendaryxxx: its fine
+[11:04:39] [Async Chat Thread - #63/INFO]: Legendaryxxx: it won't hurt u
+[11:04:41] [Async Chat Thread - #62/INFO]: [BBG] ms.aBee: ik
+[11:04:43] [Async Chat Thread - #63/INFO]: [BBG] ms.aBee: its cute
+[11:04:46] [Async Chat Thread - #63/INFO]: Legendaryxxx: ..
+[11:04:48] [Async Chat Thread - #62/INFO]: [BBG] ms.aBee: les keep it
+[11:05:01] [Async Chat Thread - #63/INFO]: Legendaryxxx: shure
+[11:05:59] [Async Chat Thread - #63/INFO]: Legendaryxxx: ik exactly how to deal with the mfs
+[11:07:13] [Async Chat Thread - #64/INFO]: Legendaryxxx: YEEEEEEEEEEEEE
+[11:07:17] [Async Chat Thread - #64/INFO]: Legendaryxxx: its big
+[11:13:04] [Server thread/INFO]: Legendaryxxx was doomed to fall by Piglin
+[11:13:24] [Async Chat Thread - #66/INFO]: [BBG] ms.aBee: :I
+[11:13:25] [Server thread/INFO]: Legendaryxxx issued server command: /back
+[11:13:29] [Netty Epoll Server IO #3/WARN]: Legendaryxxx sent out-of-order chat: 'NOOOOOO': 1735298005 > 1735298003
+[11:13:29] [Server thread/INFO]: Legendaryxxx lost connection: Out-of-order chat packet received. Did your system time change?
+[11:13:29] [Server thread/INFO]: Legendaryxxx left the game
+[11:13:35] [User Authenticator #4/INFO]: UUID of player Legendaryxxx is f740b3e1-520d-33ee-af20-d4486f8896ef
+[11:13:35] [Server thread/INFO]: Legendaryxxx joined the game
+[11:13:36] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:48916] logged in with entity id 68981 at ([world]-266.5, 62.18372772341944, 459.5)
+[11:13:39] [Async Chat Thread - #68/INFO]: Legendaryxxx: wait no way
+[11:14:08] [Async Chat Thread - #66/INFO]: [BBG] ms.aBee: ??
+[11:14:14] [Async Chat Thread - #68/INFO]: Legendaryxxx: idk.
+[11:14:24] [Async Chat Thread - #66/INFO]: [BBG] ms.aBee: wherd u go
+[11:14:30] [Async Chat Thread - #66/INFO]: Legendaryxxx: ALL THE AY HERE LMAO
+[11:14:37] [Async Chat Thread - #68/INFO]: [BBG] ms.aBee: here where
+[11:14:57] [Async Chat Thread - #66/INFO]: Legendaryxxx: spaw
+[11:15:02] [Async Chat Thread - #66/INFO]: [BBG] ms.aBee: ..
+[11:15:03] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: sigh
+[11:15:07] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: idt its far
+[11:15:09] [Async Chat Thread - #68/INFO]: [BBG] ms.aBee: is it?
+[11:15:27] [Async Chat Thread - #66/INFO]: [BBG] ms.aBee: do u have cords to the bastion
+[11:15:29] [Async Chat Thread - #66/INFO]: Legendaryxxx: NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[11:15:32] [Async Chat Thread - #68/INFO]: Legendaryxxx: I LOST THE PICK
+[11:15:32] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: so i could get ur stuff
+[11:15:38] [Async Chat Thread - #68/INFO]: Legendaryxxx: ;/
+[11:15:41] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: did u get it back??!?
+[11:15:45] [Async Chat Thread - #68/INFO]: Legendaryxxx: no
+[11:15:54] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: hm.
+[11:16:04] [Async Chat Thread - #68/INFO]: Legendaryxxx: tht bastion?
+[11:16:07] [Async Chat Thread - #69/INFO]: Legendaryxxx: idr
+[11:16:40] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: should iu build ;^
+[11:16:50] [Async Chat Thread - #69/INFO]: Legendaryxxx: hMmMMM
+[11:16:53] [Async Chat Thread - #68/INFO]: Legendaryxxx: no.
+[11:16:59] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: whY
+[11:17:05] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: i was thinking of making my own base
+[11:17:07] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: and u make urs
+[11:17:11] [Async Chat Thread - #69/INFO]: Legendaryxxx: oh
+[11:17:15] [Async Chat Thread - #68/INFO]: [BBG] ms.aBee: is that fine?
+[11:17:18] [Async Chat Thread - #68/INFO]: Legendaryxxx: yea
+[11:17:22] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: u sure?
+[11:17:25] [Async Chat Thread - #68/INFO]: Legendaryxxx: ye ye
+[11:17:31] [Async Chat Thread - #68/INFO]: [BBG] ms.aBee: no ill wait for u
+[11:17:42] [Async Chat Thread - #68/INFO]: Legendaryxxx: no.
+[11:18:07] [Async Chat Thread - #69/INFO]: [BBG] ms.aBee: why
+[11:18:10] [Async Chat Thread - #68/INFO]: [BBG] ms.aBee: i see u
+[11:20:03] [Async Chat Thread - #70/INFO]: Legendaryxxx: eh
+[11:20:08] [Async Chat Thread - #71/INFO]: Legendaryxxx: wyd there
+[11:20:12] [Async Chat Thread - #70/INFO]: [BBG] ms.aBee: waiting
+[11:20:34] [Async Chat Thread - #71/INFO]: Legendaryxxx: for wat
+[11:20:39] [Async Chat Thread - #70/INFO]: [BBG] ms.aBee: dik
+[11:20:40] [Async Chat Thread - #70/INFO]: [BBG] ms.aBee: idk
+[11:20:57] [Async Chat Thread - #72/INFO]: Legendaryxxx: ;i
+[11:21:00] [Async Chat Thread - #72/INFO]: [BBG] ms.aBee: ;i
+[11:21:08] [Async Chat Thread - #70/INFO]: Legendaryxxx: idw play rn
+[11:21:11] [Async Chat Thread - #71/INFO]: [BBG] ms.aBee: wy
+[11:21:17] [Async Chat Thread - #72/INFO]: Legendaryxxx: cus my fathers here
+[11:21:20] [Async Chat Thread - #72/INFO]: [BBG] ms.aBee: oh
+[11:21:21] [Async Chat Thread - #72/INFO]: [BBG] ms.aBee: okay
+[11:21:25] [Async Chat Thread - #71/INFO]: Legendaryxxx: bye
+[11:21:26] [Server thread/INFO]: Legendaryxxx lost connection: Disconnected
+[11:21:26] [Server thread/INFO]: Legendaryxxx left the game
+[11:21:58] [Server thread/INFO]: eagledares1 lost connection: Disconnected
+[11:21:58] [Server thread/INFO]: eagledares1 left the game
+[11:25:30] [User Authenticator #5/INFO]: UUID of player Legendaryxxx is f740b3e1-520d-33ee-af20-d4486f8896ef
+[11:25:30] [Server thread/INFO]: Legendaryxxx joined the game
+[11:25:30] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:47896] logged in with entity id 70954 at ([world]15.407844215251963, 105.0, 1004.1015752502158)
+[11:29:31] [User Authenticator #6/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[11:29:31] [Server thread/INFO]: eagledares1 joined the game
+[11:29:31] [TAB Processing Thread/INFO]: [TAB] [WARN] Player eagledares1's group (bbg) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[11:29:31] [Server thread/INFO]: eagledares1[/[0:0:0:0:0:0:0:1%0]:58512] logged in with entity id 71786 at ([world]13.88271682424638, 105.0, 1004.5925335382184)
+[11:30:00] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: whered u go
+[11:30:12] [Async Chat Thread - #74/INFO]: Legendaryxxx: uh
+[11:30:30] [Async Chat Thread - #74/INFO]: [BBG] ms.aBee: uh>
+[11:30:31] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: uh?
+[11:30:34] [Async Chat Thread - #73/INFO]: Legendaryxxx: somewhere
+[11:30:54] [Async Chat Thread - #74/INFO]: [BBG] ms.aBee: ;/
+[11:31:05] [Server thread/INFO]: Legendaryxxx issued server command: /gamemode creative
+[11:31:12] [Server thread/INFO]: Legendaryxxx issued server command: /gamemode survival
+[11:31:28] [Async Chat Thread - #73/INFO]: Legendaryxxx: BYEEEEEEEEEE JUNGLES
+[11:31:44] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: u cant leave me in the jungle
+[11:31:52] [Async Chat Thread - #73/INFO]: Legendaryxxx: there's lots of biomes nearby
+[11:31:53] [Async Chat Thread - #74/INFO]: Legendaryxxx: ;-;
+[11:32:08] [Async Chat Thread - #74/INFO]: [BBG] ms.aBee: but it was ur idea to set a base here -_-
+[11:32:23] [Async Chat Thread - #74/INFO]: Legendaryxxx: i thought we'd make together or smthn
+[11:32:28] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: we still are
+[11:32:34] [Async Chat Thread - #74/INFO]: Legendaryxxx: u can make urs wherever u want to ;-;'
+[11:32:47] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: i was gonna mine here only
+[11:32:49] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: beside ursd
+[11:33:03] [Async Chat Thread - #73/INFO]: Legendaryxxx: ate
+[11:33:09] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: -_-
+[11:33:16] [Async Chat Thread - #74/INFO]: Legendaryxxx: wat
+[11:33:23] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: are u coming bakc or what
+[11:33:25] [Async Chat Thread - #75/INFO]: Legendaryxxx: no
+[11:33:32] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: yes
+[11:33:36] [Async Chat Thread - #75/INFO]: Legendaryxxx: no
+[11:33:39] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: i wont play
+[11:33:40] [Async Chat Thread - #75/INFO]: [BBG] ms.aBee: then
+[11:33:45] [Async Chat Thread - #73/INFO]: Legendaryxxx: ........
+[11:34:08] [Async Chat Thread - #75/INFO]: Legendaryxxx: no i'm not coming back
+[11:34:12] [Async Chat Thread - #73/INFO]: [BBG] ms.aBee: ok
+[11:34:14] [Server thread/INFO]: eagledares1 lost connection: Disconnected
+[11:34:14] [Server thread/INFO]: eagledares1 left the game
+[11:35:38] [User Authenticator #7/INFO]: UUID of player eagledares1 is f76c96ba-8b32-3fcd-85e9-66dc6f64378b
+[11:35:38] [TAB Processing Thread/INFO]: [TAB] [WARN] Player eagledares1's group (bbg) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[11:35:38] [Server thread/INFO]: eagledares1 joined the game
+[11:35:38] [Server thread/INFO]: eagledares1[/[0:0:0:0:0:0:0:1%0]:33346] logged in with entity id 74585 at ([world]8.743364701141365, 70.0, 1016.9579662390231)
+[11:35:46] [Async Chat Thread - #76/INFO]: [BBG] ms.aBee: u can go
+[11:36:16] [Async Chat Thread - #76/INFO]: [BBG] ms.aBee: can i break all ths u made tho
+[11:36:30] [Async Chat Thread - #76/INFO]: Legendaryxxx: mhm
+[11:36:34] [Async Chat Thread - #77/INFO]: [BBG] ms.aBee: ok
+[11:37:46] [Async Chat Thread - #78/INFO]: Legendaryxxx: me and my horse <3
+[11:37:56] [Async Chat Thread - #78/INFO]: [BBG] ms.aBee: ur getting no supplies.
+[11:38:07] [Async Chat Thread - #79/INFO]: Legendaryxxx: i cud've taken if i wanted to TT TT.
+[11:38:12] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: yuh
+[11:38:14] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: too bad.
+[11:38:24] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: uve made me mad
+[11:38:27] [Async Chat Thread - #79/INFO]: Legendaryxxx: it's fine
+[11:38:32] [Async Chat Thread - #79/INFO]: Legendaryxxx: u can take em all
+[11:38:42] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: why'd u bring us to this ugly ass place
+[11:38:45] [Async Chat Thread - #79/INFO]: [BBG] ms.aBee: i hate the jungle.
+[11:38:57] [Async Chat Thread - #80/INFO]: Legendaryxxx: u can make urs in the meadow
+[11:39:01] [Async Chat Thread - #79/INFO]: Legendaryxxx: or idk
+[11:39:04] [Async Chat Thread - #79/INFO]: Legendaryxxx: wherever u likee
+[11:39:13] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: bitch
+[11:40:07] [Async Chat Thread - #79/INFO]: Legendaryxxx: can u sleep
+[11:40:09] [Async Chat Thread - #79/INFO]: [BBG] ms.aBee: no
+[11:40:12] [Async Chat Thread - #80/INFO]: Legendaryxxx: ok
+[11:40:32] [Async Chat Thread - #79/INFO]: [BBG] ms.aBee: idw play anymore
+[11:40:32] [Async Chat Thread - #80/INFO]: Legendaryxxx: I NAME THIS LAND
+[11:40:33] [Async Chat Thread - #79/INFO]: [BBG] ms.aBee: its boring
+[11:40:34] [Async Chat Thread - #80/INFO]: Legendaryxxx: AMERICA
+[11:40:38] [Async Chat Thread - #79/INFO]: [BBG] ms.aBee: bye
+[11:40:39] [Async Chat Thread - #80/INFO]: Legendaryxxx: hM
+[11:40:42] [Async Chat Thread - #79/INFO]: Legendaryxxx: :(
+[11:40:52] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: ._.?
+[11:40:57] [Async Chat Thread - #79/INFO]: Legendaryxxx: what
+[11:40:58] [Async Chat Thread - #79/INFO]: Legendaryxxx: do
+[11:40:59] [Async Chat Thread - #80/INFO]: Legendaryxxx: u
+[11:41:00] [Async Chat Thread - #81/INFO]: Legendaryxxx: want
+[11:41:06] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: nothing
+[11:41:09] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: u pissed me off.
+[11:41:23] [Async Chat Thread - #80/INFO]: Legendaryxxx: dude
+[11:41:27] [Async Chat Thread - #81/INFO]: Legendaryxxx: how?
+[11:41:37] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: cus u said u wanted to make a base together
+[11:41:39] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: no i said that
+[11:41:41] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: and u agrred
+[11:41:45] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: and then u wanted a base in the jungle
+[11:41:56] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: and i agreed to it altho i hate this biome
+[11:41:59] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: how dare u run away.
+[11:42:06] [Async Chat Thread - #81/INFO]: Legendaryxxx: then u said u wanted to make ur own base
+[11:42:09] [Async Chat Thread - #80/INFO]: Legendaryxxx: so make ._.
+[11:42:14] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: beside ur tree
+[11:42:17] [Async Chat Thread - #81/INFO]: Legendaryxxx: there's lotta biomes around there bro
+[11:42:18] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: dumb bitch
+[11:42:23] [Async Chat Thread - #80/INFO]: Legendaryxxx: idc
+[11:42:24] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: i'll explode all our belonging and quit
+[11:42:29] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: u can play by yourself
+[11:42:36] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: if u wanna be so alone
+[11:42:50] [Async Chat Thread - #81/INFO]: Legendaryxxx: :I
+[11:43:08] [Async Chat Thread - #80/INFO]: [BBG] ms.aBee: this isnt even funny
+[11:43:19] [Async Chat Thread - #80/INFO]: Legendaryxxx: idk
+[11:43:24] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: what>
+[11:44:00] [Async Chat Thread - #81/INFO]: [BBG] ms.aBee: bye
+[11:44:01] [Server thread/INFO]: eagledares1 lost connection: Disconnected
+[11:44:01] [Server thread/INFO]: eagledares1 left the game
+[11:44:38] [Server thread/INFO]: Legendaryxxx was impaled by Drowned
+[11:45:08] [Server thread/INFO]: Legendaryxxx lost connection: Disconnected
+[11:45:08] [Server thread/INFO]: Legendaryxxx left the game
+[11:45:23] [Server thread/INFO]: Stopping the server
+[11:45:23] [Server thread/INFO]: Stopping server
+[11:45:23] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+151-f2af952
+[11:45:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[11:45:23] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:45:23] [Server thread/INFO]: [HeadDatabase] Disabling HeadDatabase v4.18.0
+[11:45:23] [Server thread/INFO]: [KissMe] Disabling KissMe v1.0
+[11:45:23] [Server thread/INFO]: [KissMe] [STDOUT] [KissMe] deactivated
+[11:45:23] [Server thread/WARN]: Nag author(s): '[SickRed]' of 'KissMe v1.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[11:45:23] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
+[11:45:23] [Server thread/INFO]: [TAB] Disabled in 1ms
+[11:45:23] [Server thread/INFO]: [ServerListPlus] Disabling ServerListPlus v3.5.0
+[11:45:23] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 disabled.
+[11:45:23] [Server thread/INFO]: [UltraCosmetics] Disabling UltraCosmetics v3.9-RELEASE
+[11:45:23] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
+[11:45:23] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[11:45:23] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v10.1
+[11:45:23] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
+[11:45:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[11:45:23] [Server thread/INFO]: [OmegaVision] Disabling OmegaVision v2.5.16
+[11:45:23] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.44
+[11:45:23] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[11:45:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:45:23] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.0
+[11:45:23] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[11:45:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[11:45:23] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:45:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.151
+[11:45:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:45:23] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:45:23] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:45:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
+[11:45:23] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:45:23] [Server thread/INFO]: Saving players
+[11:45:23] [Server thread/INFO]: Saving worlds
+[11:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:45:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:45:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:45:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:45:23] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 105 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[11:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:45:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:45:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:45:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:45:24] [Server thread/INFO]: [ChunkHolderManager] Saved 320 block chunks, 83 entity chunks, 0 poi chunks in world 'world_nether' in 0.97s
+[11:45:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:45:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:45:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:45:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:45:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:45:24] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[11:45:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:45:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:45:24] [Server thread/INFO]: Flushing Chunk IO
+[11:45:24] [Server thread/INFO]: Closing Thread Pool
+[11:45:24] [Server thread/INFO]: Closing Server
