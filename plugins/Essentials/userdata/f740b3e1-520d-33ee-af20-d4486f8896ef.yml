@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1735322821975
-  login: 1735318417866
+  logout: 1735360965587
+  login: 1735352618800
 money: '0'
 last-account-name: Legendaryxxx
 logoutlocation:
   world: f00e8b08-0038-46e2-a57c-ac85b6e40e03
   world-name: world
-  x: 878.4628765219995
-  y: 62.9375
-  z: 1655.38058150485
-  yaw: 35.68827819824219
-  pitch: 36.93789291381836
+  x: 878.3000000119209
+  y: 64.0
+  z: 1651.9796711261401
+  yaw: -138.81187438964844
+  pitch: 45.25724411010742
 lastlocation:
   world: f00e8b08-0038-46e2-a57c-ac85b6e40e03
   world-name: world
