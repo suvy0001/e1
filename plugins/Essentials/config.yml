@@ -171,8 +171,10 @@ overridden-commands:
 # You should not have to disable commands used in other plugins, they will automatically get priority.
 # See https://bukkit.fandom.com/wiki/Commands.yml#aliases to map commands to other plugins.
 disabled-commands:
-#  - nick
-#  - clear
+- nick
+- clear
+- tp
+- give
 
 # Whether or not Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.
